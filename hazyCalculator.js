@@ -1,13 +1,14 @@
 function isSkippedValue(value) {
-  return !value
+  //console.log('Made it to function Isskippedvalue');
+  return value
 }
 
 function isNumericValue(value) {
-  return !isNaN(value)
+  return isNaN(value)
 }
 
 function isNothingValue(value) {
-  return value === null
+  return value == null
 }
 
 function isAcceptableValue(value) {
